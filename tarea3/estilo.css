@@ -69,17 +69,18 @@ li a:hover{
 }
 
 #bienvenida img{
-    width: 23rem;
+    width: 25rem;
 }
 
 #bienvenida img:hover{
-    width: 500px;
+    width: 31rem;
     transition: 0.5s;
 }
 
 #bienvenida h1{
-    font-size: 45px;
-    height: 60px;
+    font-size: 2.7rem;
+    height: 4rem;
+    margin: 0;
 }
 
 #bienvenida h1:hover{
