@@ -1,4 +1,10 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .tarjeta{
+    margin: 2rem;
     height: 275px;
     width: 220px;
     border: 2px solid black;
