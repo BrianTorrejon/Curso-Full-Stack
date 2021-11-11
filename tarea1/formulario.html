@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ephesis&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <form>
+        <img src="https://resizer.glanacion.com/resizer/g_B3ETH89zYaV-c8zDz7tGthSdQ=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/SBAAJGYI6BDY3MWODUUZ4QDOG4.jpg"
+            alt="" width="300">
+        <h3>Únete a la familia Metallica!!</h3>
+        <br>
+        <!-- Nombre -->
+        <label for="nombre"><b>Nombre:</b></label>
+        <input type="text" placeholder="Nombre completo">
+        <br>
+        <br>
+        <!-- Apellido -->
+        <label for="apellido"><b>Apellido:</b></label>
+        <input type="text" placeholder="Apellido">
+        <br><br>
+
+        <!-- E-mail -->
+        <label for="email"><b>E-mail:</b></label>
+        <input type="email" name="mail" id="idMail" placeholder="Correo electrónico">
+        <br><br>
+
+        <!-- Fecha de nacimiento -->
+        <label for="fechaNacimiento"><b>Fecha de nacimiento:</b></label>
+        <input type="date" name="" id="">
+        <br><br>
+
+        <!-- Pais de origen -->
+        <label for="pais"><b>País de origen:</b></label>
+        <select name="pais" id="idPais">
+            <option value="">--Seleccionar--</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Espania">España</option>
+            <option value="Chile">Chile</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Alemania">Alemania</option>
+            <option value="EstadosUnidos">Estados Unidos</option>
+            <option value="Japon">Japon</option>
+        </select>
+        <br><br><br>
+
+        <!-- Albumes -->
+        <label for="seleccionAlbum"><b>Selecciona los álbumes que te gustaron:</b></label>
+        <br><br>
+        <input type="checkbox" name="" id=""><label for="killEmAll">Kill 'Em All</label><br>
+        <input type="checkbox" name="" id=""><label for="rideTheLightning">Ride the Lightning</label><br>
+        <input type="checkbox" name="" id=""><label for="masterOfPuppets">Master of Puppets</label><br>
+        <input type="checkbox" name="" id=""><label for="andJusticeForAll">...And Justice for All</label><br>
+        <input type="checkbox" name="" id=""><label for="black">Metallica "The Black Album"</label><br>
+        <input type="checkbox" name="" id=""><label for="load">Load</label><br>
+        <input type="checkbox" name="" id=""><label for="reLoad">ReLoad</label><br>
+        <input type="checkbox" name="" id=""><label for="stAnger">St. Anger</label><br>
+        <input type="checkbox" name="" id=""><label for="deathMagnetic">Death Magnetic</label><br>
+        <input type="checkbox" name="" id=""><label for="hardwiredToSelfDestruct"></label>Hardwired... to
+        Self-Destruct<br>
+        <br><br>
+
+        <!-- Seleccion de integrante -->
+        <label for=""><b>Elije a un integrante de la banda..</b></label>
+        <br><br>
+        <input type="radio" name="integrante" id=""><label for="jameHetfield">James Hetfield</label><br>
+        <input type="radio" name="integrante" id=""><label for="larsUlrich">Lars Ulrich</label><br>
+        <input type="radio" name="integrante" id=""><label for="kirkHammett">Kirk Hammett</label><br>
+        <input type="radio" name="integrante" id=""><label for="robertTrujillo">Robert Trujillo</label><br><br>
+
+        <!-- Opinion -->
+        <label for=""><b>Déjanos alguna opinion sobre la banda:</b></label>
+        <br>
+        <textarea name="" id="" cols="60" rows="5" placeholder="Me encanta esta banda porque..."></textarea>
+        <br><br>
+        <div class="botones">
+            <input type="submit" value="Enviar">
+            <input type="button" value="Cancelar">
+        </div>
+    </form>
+</body>
+
+</html>

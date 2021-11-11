@@ -1,0 +1,102 @@
+body{
+font-family: 'Roboto', sans-serif;
+}
+
+i{
+    font-weight: bold;
+    font-family: 'Ephesis';
+    font-size: 25px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.integrante{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.integrante div{
+    padding-top: 50px;
+}
+
+.integrante #james{
+    padding-top: 5px;
+}
+
+.integrante img{
+    border: solid;
+    border-color: #898989;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.integrante h4{
+    color: #ac0114;
+}
+
+ul{
+    font-size: 17px;
+}
+
+input[type="submit"], input[type="button"]{
+    color: black;
+    background-color:  white;
+    border-color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+input[type="submit"]:hover{
+    color:white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+input[type="button"]:hover{
+    color:white;
+    background-color: #ac0114;
+    transition: 0.5s;
+    border-color: #ac0114;
+}
+
+form{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-color: black;
+}
+
+nav img{
+    border: solid;
+    border-color: black;
+    border-radius: 7px;
+}
+
+footer p{
+    font-size: 20px;
+}

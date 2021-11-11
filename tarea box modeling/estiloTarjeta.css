@@ -1,0 +1,29 @@
+.tarjeta{
+    height: 275px;
+    width: 220px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.contenedorImg{
+    background-color: #e70000;
+    height: 175px;
+}
+
+.tarjeta img{
+    height: 90px;
+    width: 90px;
+    margin-left: 63px;
+    margin-top: 40px;
+    object-fit: cover;
+}
+
+.info{
+    margin-left: 10px; 
+}
+
+.contenedorImg-ride{
+    background-color: blue;
+    height: 175px;
+}

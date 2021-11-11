@@ -1,0 +1,249 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+nav #logo{
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    height: 50px;
+    width: 50px;
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+nav div a{
+    text-decoration: none;
+}
+
+nav div a h1{
+    margin: 0rem 0rem 0rem 0.5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+}
+
+nav ul li{
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    transition: 0.3s;
+    color: #ac0114;
+    border-bottom: 2px solid #ac0114;
+    padding-bottom: 5px;
+}
+
+#bienvenida{
+    padding-top: 5rem;
+    text-align: center;
+    height: 320px;
+}
+
+#bienvenida img{
+    width: 420px;
+}
+
+#bienvenida img:hover{
+    width: 500px;
+    transition: 0.5s;
+}
+
+#bienvenida h1{
+    font-size: 45px;
+    height: 60px;
+}
+
+#bienvenida h1:hover{
+    transition: 0.5s;
+    font-size: 50px;
+    color: #ac0114;
+    background-color: black;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+h4{
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+p{
+    font-size: 16px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#comentario{
+    font-weight: bold;
+    font-family: 'Ephesis';
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.integrante{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.integrante div{
+    padding-top: 50px;
+}
+
+.integrante #james{
+    padding-top: 5px;
+}
+
+.integrante img{
+    border: solid;
+    border-color: #898989;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.integrante h4{
+    color: #ac0114;
+}
+
+ul{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+input[type="submit"], input[type="button"]{
+    color: black;
+    background-color:  white;
+    border-color: black;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+    width: 100px;
+}
+
+input[type="submit"]:hover{
+    color:white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+input[type="button"]:hover{
+    color:white;
+    background-color: #ac0114;
+    transition: 0.5s;
+    border-color: #ac0114;
+}
+
+form{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border: 1px solid black;
+    border-color: black;
+    padding-left: 37%;
+}
+
+form img{
+    margin-bottom: 20px;
+}
+
+form #campos input, select, textarea{
+    width: 300px;
+    margin-bottom: 16px;
+    border: 2px solid #898989 ;
+    border-bottom: 2px solid #898989 ;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: none;
+    padding: 10px;
+}
+
+form #campos label{
+    display: block;
+}
+
+form input[type="checkbox"], form input[type="radio"]{
+    width: 50px;
+}
+
+form .botones{
+    width: 300px;
+    text-align: center;
+}
+
+footer{
+    display: table;
+    width: 100%;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer div{
+    float: left;
+    width: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer li{
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+footer div a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+
